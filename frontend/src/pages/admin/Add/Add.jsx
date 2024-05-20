@@ -9,7 +9,7 @@ const Add = () => {
   const { data, setData } = useContext(MainContext);
 
   return (
-    <div>
+    <div >
       <Helmet>
         <title>Add</title>
       </Helmet>
@@ -42,7 +42,8 @@ const Add = () => {
           handleSubmit,
         }) => (
           <form
-            className="container text-light p-5 gap-3 d-flex flex-column w-50 mt-5 rounded-3 mb-5 bg-dark"
+          style={{backgroundColor:"hotpink"}}
+            className="container text-light p-5 gap-3 d-flex flex-column w-50 mt-5 rounded-3 mb-5   "
             onSubmit={handleSubmit}
           >
             <label htmlFor="title" className="form-label">
@@ -121,7 +122,7 @@ const Add = () => {
             </select>
             {errors.category && touched.category && <div className="text-danger">{errors.category}</div>}
 
-            <button className="btn btn-primary mt-3" type="submit">
+            <button className="btn btn-success w-50  mt-3 m-auto " type="submit">
               ADD
             </button>
           </form>

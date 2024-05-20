@@ -4,6 +4,9 @@ import React, { useContext } from 'react'
     import Welcome from './../../../components/Sections/Welcome/Welcome';
 import Carousel from '../../../components/Sections/Carousel.jsx/Carousel';
 import Cards from '../../../components/Sections/Cards/Cards';
+import Blog from './../../../components/Sections/Blog/Blog';
+import Review from '../../../components/Sections/Review/Review';
+
 
     const Home = () => {
         const {data,setData} = useContext(MainContext)
@@ -16,6 +19,8 @@ import Cards from '../../../components/Sections/Cards/Cards';
                  <Carousel></Carousel>
                 <Welcome></Welcome>
                 <Cards></Cards>
+                <Review></Review>
+                <Blog></Blog>
                 </>
         </>
         )

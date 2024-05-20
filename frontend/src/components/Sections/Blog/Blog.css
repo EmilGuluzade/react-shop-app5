@@ -1,0 +1,18 @@
+.blog{
+    h2{
+        color: black !important;
+    }
+    img{
+        border-radius: 10px
+    }
+}
+.tit5 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    color: #222222;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 8px;
+}

@@ -14,13 +14,13 @@ const Products = () => {
     })
     }
   return (
-    <table class=" mt-5  container table table-hover table-dark table-striped-columns">
+    <table     class=" mt-5  container table table-hover  table-striped-columns">
       <Helmet>
       <title>
     Products
       </title>
     </Helmet>
-      <thead>
+      <thead >
         <tr>
           <th scope="col">#</th>
           <th scope="col">Image</th>

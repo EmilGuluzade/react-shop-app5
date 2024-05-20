@@ -21,20 +21,9 @@ const Header = () => {
                 <Link to="/basket" >Basket</Link>
               </li>
               <li>
-                <Link>Reservation</Link>
+                <Link to="/admin">Admin</Link>
               </li>
-              <li>
-                <Link>Gallery</Link>
-              </li>
-              <li>
-                <Link>About</Link>
-              </li>
-              <li>
-                <Link>Blog</Link>
-              </li>
-              <li>
-                <Link>Contact</Link>
-              </li>
+             
             </ul>
           </nav>
           <div className="header__right d-flex ">

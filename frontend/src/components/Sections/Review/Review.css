@@ -1,0 +1,20 @@
+.review {
+    h2 {
+      color: black !important;
+    }
+  }
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .avatar-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .star{
+      i{
+          color: goldenrod;
+      }
+  }
