@@ -20,3 +20,13 @@ header{
     font-size: 18px;
     gap: 10px;
 }
+
+
+@media only screen and (max-width:700px) {
+    .header_menu{
+        display: none;
+    }
+    .header__right{
+        display: none;
+    }
+}

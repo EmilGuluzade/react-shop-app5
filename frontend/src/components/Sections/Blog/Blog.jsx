@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Blog = () => {
   return (
-    <div className="container mt-5 blog">
+    <div className="container mt-5 p-5 blog">
       <div className="row justify-content-center">
         <div className="section-heading d-flex flex-column align-items-center ">
           <span className="tit2 m-auto ">Latest News</span>

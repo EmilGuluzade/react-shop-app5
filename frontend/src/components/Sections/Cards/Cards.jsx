@@ -41,6 +41,12 @@ const Cards = () => {
         >
           High To Low
         </button>
+        <button
+          onClick={() => setSortBy(null)}
+          className="btn btn-secondary mx-3 "
+        >
+          Default
+        </button>
         <div className="cardss mt-5 ">
           {data
             .filter((x) => x.title.toLowerCase().includes(inpVal.toLowerCase()))

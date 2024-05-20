@@ -1,0 +1,26 @@
+.footer_bottom{
+    background-color: #111111;
+
+}
+
+footer .header__right i{
+    color: white;
+}
+.footer_bottom_right a{
+color: white;
+}
+.footer_top{
+   background-color: #222222;
+
+}
+
+.item-gallery-footer {
+    display: block;
+    position: relative;
+    width: calc((100% - 50px) / 4);
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.wrap-pic-w img {
+    width: 100%;
+}
