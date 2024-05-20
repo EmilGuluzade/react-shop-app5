@@ -1,0 +1,23 @@
+.cardsection{
+    margin-top: 80px;
+    .container{
+        .cardss{
+            display: flex;
+            gap: 35px;
+            flex-wrap: wrap;
+            align-items: center;
+            .cardd{
+                width: 400px;
+                img{width: 100%;
+                    height: 300px;
+                border-radius: 12px;}
+                h5{margin-top: 10px;}
+                p{
+                    margin-top: 10px;
+                
+                }
+            }
+        }
+
+    }
+}
